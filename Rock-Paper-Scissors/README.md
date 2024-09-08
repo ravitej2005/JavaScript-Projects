@@ -11,7 +11,7 @@ This is a simple **Rock Paper Scissors** game built using **HTML**, **Tailwind C
 
 ## Demo
 
-You can view the live demo of this project here: [GitHub Pages link](https://ravitej2005.github.io/JavaScript-Projects/Rock-Paper-Scissors/index.html)
+You can view the live demo of this project here: [Live demo](https://ravitej2005.github.io/JavaScript-Projects/Rock-Paper-Scissors/index.html)
 
 ## Installation
 
