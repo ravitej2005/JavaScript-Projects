@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Rock Paper Scissors</title>
+  <link rel="stylesheet" crossorigin href="./assets/style.css">
+</head>
+
+<body class="font-sans bg-neutral-900 text-white pl-2 pt-5">
+  <p class="text-3xl font-bold mb-6">Rock Paper Scissors</p>
+<div class="mb-12 flex col-span-2">
+  <button onclick="playGame('rock')" class="m-1 border-white h-28 w-28 rounded-full border-[3px] flex justify-center items-center"><img src="./assets/Img/rock-emoji.png" class="h-12 "></button>
+  <button onclick="playGame('paper')" class="m-1 border-white h-28 w-28 rounded-full border-[3px] flex justify-center items-center"><img src="./assets/Img/paper-emoji.png" class="h-12 "></button>
+  <button onclick="playGame('scissors')" class="m-1 border-white h-28 w-28 rounded-full border-[3px] flex justify-center items-center"><img src="./assets/Img/scissors-emoji.png" class="h-12"></button>
+</div>
+  <p class="js-result text-2xl font-bold mb-5"></p>
+  <div class="js-moves mb-12 flex items-center justify-start"></div>
+  <div class="js-score"></div>
+  <button onclick="
+    score = { wins: 0, losses: 0, ties: 0 };
+    localStorage.removeItem('score');
+    reset_button()
+    " class="bg-white text-black px-3 py-1 mt-4">Reset Score</button>
+  <button onclick="
+    autoPlay();
+  " class="bg-white text-black px-3 py-1 mt-4 js-autoPlay">Auto Play</button>
+
+<script src="./assets/Rock-Paper-Scissors.js"></script>
+</body>
+</html>
