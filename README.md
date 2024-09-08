@@ -9,5 +9,5 @@ Technologies Used: HTML, Tailwind CSS, JavaScript, Vite.
 
 ## Live Demo
 
-Check out the live version of the project here: [Rock Paper Scissors Game](https://your-github-username.github.io/repository-name/)
+Check out the live version of the project here: [Rock Paper Scissors Game](https://ravitej2005.github.io/JavaScript-Projects/)
 
